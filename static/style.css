@@ -1,1 +1,59 @@
+body{
+margin:0;
+font-family:Arial;
+background:#f4f7fb;
+}
 
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(
+135deg,
+#0f172a,
+#2563eb
+);
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.btn{
+padding:15px 35px;
+background:white;
+color:#2563eb;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.container{
+width:500px;
+margin:50px auto;
+padding:30px;
+background:white;
+box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+}
+
+button{
+width:100%;
+padding:15px;
+background:#2563eb;
+color:white;
+border:none;
+}
+
+.success{
+text-align:center;
+margin-top:100px;
+}
