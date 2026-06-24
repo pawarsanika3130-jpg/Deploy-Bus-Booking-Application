@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Ticket</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
 
+<div class="container">
+
+<h2>Book Journey</h2>
+
+<form action="/submit" method="POST">
+
+<input name="name" placeholder="Full Name" required>
+
+<input name="email" placeholder="Email" required>
+
+<input name="source" placeholder="Source City" required>
+
+<input name="destination" placeholder="Destination City" required>
+
+<input type="date"
+name="travel_date"
+required>
+
+<input name="seat"
+placeholder="Seat Number"
+required>
+
+<button type="submit">
+Confirm Booking
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
